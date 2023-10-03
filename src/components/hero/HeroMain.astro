@@ -1,7 +1,6 @@
 ---
 import ButtonMain from "@components/base/ButtonMain.astro";
 import ButtonSub from "@components/base/ButtonSub.astro";
-import HeroMainModuleOne from "@components/hero/HeroMainModuleOne.astro";
 ---
 
 <div
@@ -27,10 +26,10 @@ import HeroMainModuleOne from "@components/hero/HeroMainModuleOne.astro";
             <div
               class="w-full flex items-center justify-center ltablet:justify-start lg:justify-start gap-2"
             >
-              <ButtonMain to={"/"} class="'min-w-[130px]'"
+              <ButtonMain to={"#pilot"} class="'min-w-[130px]'"
                 >Get Started</ButtonMain
               >
-              <ButtonSub to={"/"} class="'min-w-[130px]'">Explore</ButtonSub
+              <ButtonSub to={"#highlights"} class="'min-w-[130px]'">Explore</ButtonSub
               >
             </div>
           </div>
@@ -68,7 +67,6 @@ import HeroMainModuleOne from "@components/hero/HeroMainModuleOne.astro";
         >
           🦠
         </div>
-        <HeroMainModuleOne />
       </div>
     </div>
   </div>

@@ -18,21 +18,21 @@ import Testimonials from "@components/content/Testimonials.astro";
 
 <Layout title="Home">
   <HeroMain />
-
+<div id="highlights">
   <SectionMuted>
     <Container>
       <SectionTitle
         title="Forget about the hassle"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
-        minititle="On-Demand Healthcare"
+        subtitle="Move to a digital family doctor model."
+        minititle="Continued Longitudinal Healthcare"
       />
 
       <div class="grid md:grid-cols-3 ltablet:grid-cols-4 lg:grid-cols-4 gap-x-6 gap-y-12" x-intersect="activeStep = ''">
         <!-- Item -->
         <div>
           <IconBlock
-            title="Save time & effort"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
+            title="Continuum of Care"
+            text="Patient’s longitudinal health history for evidence based treatment via Public Health Record app (PHR)"
             icon="ph:timer-duotone"
             class="'text-primary-600'"
           />
@@ -40,26 +40,35 @@ import Testimonials from "@components/content/Testimonials.astro";
         <!-- Item -->
         <div>
           <IconBlock
-            title="Curated professionals"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
-            icon="ph:first-aid-duotone"
-            class="'text-rose-500'"
-          />
-        </div>
-        <!-- Item -->
-        <div>
-          <IconBlock
-            title="24/24 Emergencies"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
-            icon="ph:first-aid-kit-duotone"
+            title="E-Prescription"
+            text="Share prescriptions with patient in a paperless manner directly attached to their health record"
+            icon="ph:prescription-duotone"
             class="'text-primary-600'"
           />
         </div>
         <!-- Item -->
         <div>
           <IconBlock
-            title="Connected services"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
+            title="360° view of Practice"
+            text="Centralized view of your consultations across all clinics/hospitals"
+            icon="ph:first-aid-kit-duotone"
+            class="'text-rose-500'"
+          />
+        </div>
+        <!-- Item -->
+        <div>
+          <IconBlock
+            title="Privacy by Design"
+            text="Patient's health data and booking history kept private from the app providers"
+            icon="ph-lock-simple-duotone"
+            class="'text-primary-600'"
+          />
+        </div>
+        <!-- Item -->
+        <div>
+          <IconBlock
+            title="Your platform - Your choice"
+            text="Flexibility to seamlessly switch to alternative providers within the open network"
             icon="ph:heartbeat-duotone"
             class="'text-rose-500'"
           />
@@ -67,8 +76,8 @@ import Testimonials from "@components/content/Testimonials.astro";
         <!-- Item -->
         <div>
           <IconBlock
-            title="Video consultations"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
+            title="Effortless Tele-consultations"
+            text="Use industry leading platforms which offer reliable video quality during consultations"
             icon="ph:video-camera-duotone"
             class="'text-primary-600'"
           />
@@ -76,17 +85,8 @@ import Testimonials from "@components/content/Testimonials.astro";
         <!-- Item -->
         <div>
           <IconBlock
-            title="Audio consultations"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
-            icon="ph:phone-duotone"
-            class="'text-primary-600'"
-          />
-        </div>
-        <!-- Item -->
-        <div>
-          <IconBlock
-            title="Appointements"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
+            title="Set Fee and Time"
+            text="Define consultation timeslots and price to be charged"
             icon="ph:calendar-duotone"
             class="'text-primary-600'"
           />
@@ -94,25 +94,25 @@ import Testimonials from "@components/content/Testimonials.astro";
         <!-- Item -->
         <div>
           <IconBlock
-            title="Medicine"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
-            icon="ph:pill-duotone"
+            title="Payment Security"
+            text="Payment is safely held in escrow until the consultation is complete"
+            icon="ph:money-duotone"
             class="'text-primary-600'"
           />
         </div>
       </div>
     </Container>
   </SectionMuted>
+</div>
 
-
-  <SectionMuted class="'overflow-hidden'">
-    <Container>
-      <div class="py-10">
-        <SideStatsRight />
-        <SideStatsLeft />
-      </div>
-    </Container>
-  </SectionMuted>
+  <!--<SectionMuted class="'overflow-hidden'">-->
+  <!--  <Container>-->
+  <!--    <div class="py-10">-->
+  <!--      <SideStatsRight />-->
+  <!--      <SideStatsLeft />-->
+  <!--    </div>-->
+  <!--  </Container>-->
+  <!--</SectionMuted>-->
 
   <!--<SectionMuted>-->
   <!--  <Container>-->
@@ -126,17 +126,17 @@ import Testimonials from "@components/content/Testimonials.astro";
   <!--  </Container>-->
   <!--</SectionMuted>-->
 
-  <SectionMuted>
-    <Container>
-      <SectionTitle
-        title="They love Dokto"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
-        minititle="Our Patients"
-        class="'mx-auto text-center'"
-      />
-      <Testimonials />
-    </Container>
-  </SectionMuted>
+  <!--<SectionMuted>-->
+  <!--  <Container>-->
+  <!--    <SectionTitle-->
+  <!--      title="They love Dokto"-->
+  <!--      subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."-->
+  <!--      minititle="Our Patients"-->
+  <!--      class="'mx-auto text-center'"-->
+  <!--    />-->
+  <!--    <Testimonials />-->
+  <!--  </Container>-->
+  <!--</SectionMuted>-->
 
   <SectionMuted>
     <Container>
